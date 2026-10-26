@@ -1,0 +1,21 @@
+---
+title: "M10 Hands-on Practice: Sharing Outputs with the Audience"
+subtitle: "Quarto Website"
+author: "Han Mai"
+date: 2026-10-25
+format:
+  html:
+    embed-resources: true
+    toc: false
+---
+
+## Published Website
+
+[Visit Han Mai’s Quarto portfolio](https://hanamai111.github.io/ibm-6500-m10-quarto-portfolio/)
+
+The website includes Home, a CEP Quarto Dashboard, an applied CSS/SCSS demonstration, and a working Quarto Listings collection.
+
+## GitHub Repository
+
+[View the website source and rendered files](https://github.com/hanamai111/ibm-6500-m10-quarto-portfolio)
+
