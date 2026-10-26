@@ -1,0 +1,90 @@
+---
+title: "Design that helps readers"
+subtitle: "Extending a Quarto website with CSS and SCSS"
+---
+
+## A consistent visual language
+
+Visitors should recognize the same site as they move between a biography, a dashboard, and project summaries. CSS controls the appearance of the HTML that Quarto generates. SCSS adds variables and nesting, making shared choices easier to maintain. Quarto compiles SCSS into the CSS a browser uses.
+
+Here, deep teal identifies links and primary actions, dark blue-gray supports readable text, and a light background keeps the focus on content. System fonts avoid an extra web-font download and remain readable when offline.
+
+## Connect the theme once
+
+The website’s actual configuration loads a built-in theme followed by the custom SCSS file. Keeping the custom file second allows it to override theme defaults.
+
+
+```yaml
+format:
+  html:
+    theme: [cosmo, styles.scss]
+```
+
+
+The same file defines site colors, fonts, component spacing, and responsive rules.
+
+The dashboard explicitly uses the same theme pair under its own dashboard format. Its rows and cards keep Quarto’s native layout behavior; the regular website pages use the shared HTML format.
+
+## Variables before rules
+
+These are actual choices from this project’s stylesheet:
+
+
+```scss
+/*-- scss:defaults --*/
+$primary: #176b68;
+$body-color: #243448;
+$font-family-sans-serif: "Aptos", "Segoe UI", Arial, sans-serif;
+$font-size-root: 18px;
+```
+
+The `defaults` section sets Bootstrap/Quarto theme variables before theme rules are compiled. Changing the primary color in one place updates the site’s visual identity without editing every page.
+
+## Reusable components
+
+::: {.portfolio-card}
+### One class, a repeatable pattern
+This is a live `.portfolio-card` component. Its border, spacing, heading color, and rounded corners come from the same rule used by the Home page’s skill cards.
+:::
+
+
+```scss
+/*-- scss:rules --*/
+.portfolio-card {
+  background: white;
+  border: 1px solid $card-border;
+  border-radius: .6rem;
+  padding: 1.5rem;
+}
+```
+
+The `scss:rules` section contains normal selectors and custom rules. A class is more maintainable than repeating inline styles on each card. Nested selectors keep component-specific rules together.
+
+## Small details improve navigation
+
+The navbar has a fine bottom border, clear link weight, and a soft hover background. Links keep an underline offset, and keyboard focus receives a visible outline. Code blocks wrap and have a quiet background so examples remain easy to read.
+
+Whitespace is part of the hierarchy: consistent card padding groups related content, while larger gaps separate ideas. A restrained maximum content width prevents overly long lines on wide screens.
+
+## Adapt to the reader’s screen
+
+The Home page uses a two-column introduction and three skill cards on wider screens. A media query stacks them into one column below 760 pixels. The heading size uses `clamp()`, allowing it to scale within readable limits.
+
+
+```scss
+@media (max-width: 760px) {
+  .hero-grid, .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 1.3rem;
+  }
+}
+```
+
+Responsive styling needs verification: a layout can look balanced on a laptop and still produce narrow columns or overflow on a phone. The dashboard separately uses its native responsive layout and scrolling content.
+
+## Choose the simplest tool that works
+
+Use YAML for supported theme and layout options, SCSS variables for shared theme values, and classes for recurring components. Use a focused CSS selector only when the generated HTML needs a specific adjustment. This keeps content readable and future changes manageable.
+
+**Learn more:** [Quarto HTML themes](https://quarto.org/docs/output-formats/html-themes.html) · [Posit website customization tutorial](https://www.youtube.com/watch?v=pAN2Hiq0XGs)
+

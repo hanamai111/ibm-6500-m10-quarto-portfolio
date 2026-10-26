@@ -1,0 +1,52 @@
+---
+title: "Selected work"
+subtitle: "Find projects by the questions and skills that matter to you"
+toc: false
+listing:
+  id: portfolio
+  contents: projects/*.qmd
+  type: grid
+  grid-columns: 2
+  fields: [title, description, categories, date]
+  categories: true
+  sort: "title asc"
+  sort-ui: true
+  filter-ui: true
+  date-format: "MMM YYYY"
+---
+
+A listing gives visitors a quick way to browse projects by topic and identify relevant work. Use the categories or text filter to narrow this collection. Each card opens a short project summary explaining the question, methods, and limits of the evidence.
+
+These entries describe coursework and an ongoing team project. Dates below refer to preparation of these portfolio summaries, not completion of the underlying projects.
+
+::: {#portfolio}
+:::
+
+## How this collection stays consistent
+
+Quarto builds the cards from front matter in `projects/*.qmd`. A title identifies the work, the description explains its relevance, categories support filtering, and the date supplies consistent display metadata. Adding another matching document updates the listing when the website is rendered.
+
+
+```yaml
+listing:
+  contents: projects/*.qmd
+  type: grid
+  categories: true
+  filter-ui: true
+  sort: "title asc"
+```
+
+A grid helps visitors scan a small portfolio. A default list works well for longer editorial summaries; a table is useful when comparing many entries by structured fields. This collection uses native document metadata, so the title on a card and the title on its destination stay aligned.
+
+
+```yaml
+---
+title: "SQL Learning Portfolio"
+description: "Querying structured data and explaining the logic behind an answer."
+date: 2026-10-25
+categories: [SQL, Data]
+---
+```
+
+**Learn more:** [Quarto document listings](https://quarto.org/docs/websites/website-listings.html) · [Posit listings tutorial](https://www.youtube.com/watch?v=bv_Cw-3HI1Y)
+

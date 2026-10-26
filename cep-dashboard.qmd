@@ -1,0 +1,86 @@
+---
+title: "PhD Orthodontics · CEP"
+author: "Han Mai | Group 6"
+format:
+  dashboard:
+    theme: [cosmo, styles.scss]
+    scrolling: true
+    expandable: false
+    nav-buttons:
+      - icon: house
+        href: index.html
+        aria-label: Return to portfolio home
+---
+
+# Project overview
+
+Public-safe planning snapshot · Based on the Group 6 report updated October 16, 2026. This dashboard communicates project scope, not measured client results.
+
+## Scope {.flow}
+
+::: {.valuebox .scope-count icon="bullseye" color="#176b68"}
+Analytics objectives
+
+5
+:::
+
+::: {.valuebox icon="geo-alt" color="light"}
+Primary market
+
+San Gabriel
+:::
+
+::: {.valuebox icon="map" color="light"}
+Future planning market
+
+Chino Hills
+:::
+
+## Project focus {.flow}
+
+::: {.card fill="false" title="The decision this project supports"}
+How can PhD Orthodontics improve digital visibility and the path toward consultation inquiries? The project connects website experience, SEO, content, paid media, and consumer research. Chino Hills is a proposed expansion context; this dashboard makes no claim of operating performance there.
+
+**Phase represented:** research design and baseline preparation. Findings and recommendations require validated evidence.
+:::
+
+## Objectives and evidence {.flow}
+
+### Column {width=55%}
+
+::: {.card fill="false" title="Five complementary analytics objectives"}
+| AO | Focus | Audience question |
+|:--|:--|:--|
+| AO1 | Website / UX | Can visitors find information and a clear next step? |
+| AO2 | SEO | Can relevant searchers discover the practice? |
+| AO3 | Content | Does the information address prospective patients’ questions? |
+| AO4 | Google Ads | What does paid-media evidence support? |
+| AO5 | Consumer insights | What should local audience research test? |
+
+Five objectives are project workstreams, not five completed analyses.
+:::
+
+### Column {width=45%}
+
+::: {.card fill="false" title="Evidence map — what each source can support"}
+| Evidence source | Role in the project | Interpretation boundary |
+|:--|:--|:--|
+| Website audit | Review navigation, content, and UX | Audit observations are not conversion effects |
+| SEO / competitors | Benchmark public search and content evidence | Visibility does not establish patient acquisition |
+| Google Ads | Historical platform evidence; validation required | Calls and local actions are not verified patients |
+| Survey | Planned consumer-insights research | No collected responses are shown |
+| GA4 | Prospective measurement after correction and validation | Property/tag mismatch remains a measurement limitation |
+
+This is a qualitative evidence inventory, not a completion score or client KPI table.
+:::
+
+## Reading the dashboard {.flow}
+
+::: {.card fill="false" title="Design and source notes"}
+The first row answers “what is the scope?”; the tables then connect each objective to a decision and an evidence boundary. A scrolling layout lets tables retain readable text and stack on narrow screens. Value boxes emphasize factual project descriptors; they do not display invented performance figures.
+
+**Source:** [Group 6 CEP report — October 16 planning snapshot](https://sheilaaa0312.github.io/Group-6-PhD-Orthodontics/cep-group-6-report.html#analytics-objectives). Only high-level project context is summarized here. No exports, account identifiers, respondent records, or restricted source links are included.
+
+[Browse related coursework](listings.qmd) · [Return home](index.qmd)
+:::
+

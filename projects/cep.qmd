@@ -1,0 +1,27 @@
+---
+title: "PhD Orthodontics CEP"
+description: "A team project connecting digital marketing questions with evidence and measurement."
+date: 2026-10-25
+categories: ["Marketing","Research"]
+---
+
+[COURSEWORK / PROJECT SUMMARY]{.eyebrow}
+
+## The question
+
+What evidence can guide a more useful digital path toward consultation inquiries?
+
+## Approach
+
+Group 6’s Culminating Experience Project covers website/UX, SEO, content, Google Ads, and consumer insights. Han’s contribution focuses on Google Ads measurement and analysis planning.
+
+## What this work demonstrates
+
+San Gabriel is the primary market; Chino Hills is a future planning context. Platform actions require validation before interpretation as qualified inquiries, appointments, or patients. This summary contains no performance figures or private exports.
+
+## Explore
+
+[Open the public-safe CEP dashboard](../cep-dashboard.qmd).
+
+[Back to selected work](../listings.qmd)
+

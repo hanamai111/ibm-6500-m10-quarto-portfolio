@@ -1,0 +1,27 @@
+---
+title: "GA4 Analytics Blueprint"
+description: "Measurement planning that connects business questions to observable evidence."
+date: 2026-10-25
+categories: ["GA4","Marketing"]
+---
+
+[COURSEWORK / PROJECT SUMMARY]{.eyebrow}
+
+## The question
+
+What should a measurement plan establish before a team interprets outcomes?
+
+## Approach
+
+The analytics blueprint organizes measurement questions, evidence needs, and interpretation boundaries for the PhD Orthodontics project. It is a planning contribution within coursework.
+
+## What this work demonstrates
+
+A blueprint proposes how to measure; it does not prove that events fire correctly or that qualified leads have been recorded. The client GA4 property/tag mismatch requires correction and validation before trustworthy prospective measurement.
+
+## Explore
+
+[View the blueprint source repository](https://github.com/hanamai111/ga4-analytics-blueprint-phd-orthodontics).
+
+[Back to selected work](../listings.qmd)
+

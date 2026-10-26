@@ -1,0 +1,27 @@
+---
+title: "Survey & Customer Insights"
+description: "Questionnaire design that turns research questions into planned measures."
+date: 2026-10-25
+categories: ["Qualtrics","Research"]
+---
+
+[COURSEWORK / PROJECT SUMMARY]{.eyebrow}
+
+## The question
+
+How can audience perceptions be translated into clear survey questions?
+
+## Approach
+
+Coursework and CEP preparation connect constructs, measurement choices, questionnaire wording, and survey logic. Qualtrics supports the draft questionnaire workflow.
+
+## What this work demonstrates
+
+The CEP questionnaire is an unpublished draft pending review, privacy wording, stimulus decisions, and pretesting. No responses or research findings are presented. A planned study should not be described as completed evidence.
+
+## Explore
+
+[Explore the project’s evidence map](../cep-dashboard.qmd).
+
+[Back to selected work](../listings.qmd)
+

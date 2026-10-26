@@ -1,0 +1,27 @@
+---
+title: "SQL Learning Portfolio"
+description: "Querying structured data and explaining the logic behind an answer."
+date: 2026-10-25
+categories: ["SQL","Data"]
+---
+
+[COURSEWORK / PROJECT SUMMARY]{.eyebrow}
+
+## The question
+
+How can a structured query turn a business question into a reproducible answer?
+
+## Approach
+
+Coursework practice with selecting, filtering, grouping, and summarizing relational data. The portfolio communicates query logic alongside outputs so a reader can follow the reasoning.
+
+## What this work demonstrates
+
+SQL helps define the unit of analysis and the conditions behind a result. An aggregate answers a specific question only when its filters and grouping match that question.
+
+## Explore
+
+[View the source portfolio](https://github.com/hanamai111/ibm-6500-sql-learning-portfolio).
+
+[Back to selected work](../listings.qmd)
+

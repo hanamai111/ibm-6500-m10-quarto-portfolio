@@ -1,0 +1,67 @@
+/*-- scss:defaults --*/
+$primary: #176b68;
+$secondary: #52657a;
+$body-bg: #fbfcfd;
+$body-color: #243448;
+$link-color: #11625f;
+$navbar-bg: #ffffff;
+$navbar-fg: #243448;
+$navbar-hl: #176b68;
+$font-family-sans-serif: "Aptos", "Segoe UI", Arial, sans-serif;
+$headings-font-family: "Aptos", "Segoe UI", Arial, sans-serif;
+$font-size-root: 18px;
+$headings-font-weight: 650;
+$border-color: #dbe3e9;
+$code-block-bg: #f1f5f8;
+
+/*-- scss:rules --*/
+$accent-soft: #edf5f4;
+$card-border: #dbe3e9;
+
+body { line-height: 1.65; }
+h1, h2, h3 { line-height: 1.2; letter-spacing: -.025em; }
+h2 { margin-top: 2.2rem; padding-bottom: .45rem; }
+a { text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible { outline: 3px solid #a35618; outline-offset: 3px; }
+.navbar { border-bottom: 1px solid $card-border; padding-block: .8rem; }
+.navbar-brand { font-weight: 750; letter-spacing: -.03em; }
+.navbar .nav-link { font-weight: 550; border-radius: .35rem; }
+.navbar .nav-link:hover { background-color: $accent-soft; }
+#quarto-content { padding-top: 1.3rem; }
+#quarto-document-content { max-width: 1080px; }
+.quarto-title .subtitle { color: #52657a; }
+.eyebrow { font-size: .76rem; font-weight: 750; letter-spacing: .11em; color: $primary; }
+.hero-grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 3rem; align-items: center; padding: 1rem 0 2.3rem; max-width: 1120px; margin: auto; }
+.hero-copy h2 { font-size: clamp(2rem, 3.5vw, 3.15rem); border: 0; margin-top: .9rem; }
+.hero-copy p { max-width: 66ch; }
+.btn { margin: .4rem .4rem .4rem 0; padding: .65rem 1rem; border-radius: .4rem; font-weight: 600; }
+.portrait-panel { text-align: center; }
+.portrait { width: 100%; max-width: 320px; border: 1px solid $card-border; border-radius: .65rem; }
+.photo-caption { display: block; font-size: .78rem; color: #52657a; }
+.feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+.portfolio-card { background: white; border: 1px solid $card-border; border-radius: .6rem; padding: 1.5rem; }
+.portfolio-card h3 { margin: 0 0 .75rem; font-size: 1.18rem; color: $primary; }
+.portfolio-card p:last-child { margin-bottom: 0; }
+.demo-note { border-left: 4px solid $primary; background: $accent-soft; padding: 1rem 1.25rem; margin: 1.2rem 0; }
+.quarto-grid-item { border-radius: .55rem; background: white; overflow: hidden; }
+.quarto-grid-item:hover { border-color: $primary; box-shadow: 0 3px 12px rgba(36,52,72,.08); }
+.quarto-grid-item .listing-title { font-weight: 650; }
+pre.sourceCode { border: 1px solid $card-border; border-radius: .4rem; }
+table { font-size: .94rem; }
+.nav-footer { border-top: 1px solid $card-border; margin-top: 2rem; font-size: .8rem; }
+@media (max-width: 760px) {
+  .hero-grid, .feature-grid { grid-template-columns: 1fr; gap: 1.3rem; }
+  .hero-grid { padding: 0 0 1rem; }
+  .portrait-panel { max-width: 260px; margin: auto; }
+  .portfolio-card { padding: 1.15rem; }
+  .navbar { padding-block: .5rem; }
+}
+
+/* Keep the emphasized scope value readable on its teal background. */
+.scope-count {
+  color: #ffffff;
+  .bi, p { color: inherit; }
+}
+
+
+.portrait { aspect-ratio: 4 / 5; object-fit: cover; object-position: center; }

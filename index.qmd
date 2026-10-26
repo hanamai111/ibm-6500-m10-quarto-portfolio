@@ -1,0 +1,54 @@
+---
+title: "Han Mai"
+subtitle: "Marketing analytics & customer insights"
+toc: false
+page-layout: full
+---
+
+:::: {.hero-grid}
+::: {.hero-copy}
+[CAL POLY POMONA · GRADUATE STUDENT]{.eyebrow}
+
+## Turning marketing questions into clear, useful evidence {.hero-heading}
+
+I am pursuing an MS in Digital Marketing & Analytics at Cal Poly Pomona. My coursework connects marketing measurement, customer research, and reproducible reporting so audiences can understand what the evidence supports and what still needs to be tested.
+
+I am interested in marketing analytics and customer insights roles, helping teams ask better questions, evaluate digital activity, and communicate practical next steps.
+
+[Explore selected work](listings.qmd){.btn .btn-primary}
+[View the CEP dashboard](cep-dashboard.qmd){.btn .btn-outline-primary}
+:::
+::: {.portrait-panel}
+![Han Mai](assets/han-mai-headshot.jpeg){.portrait fig-cap=false}
+
+:::
+::::
+
+## Skills in practice
+
+:::: {.feature-grid}
+::: {.portfolio-card}
+### Marketing measurement
+GA4 and Google Ads coursework: measurement planning, platform interpretation, and separating reported actions from verified outcomes.
+:::
+::: {.portfolio-card}
+### Data & reporting
+SQL, BigQuery, R, and Quarto: querying data, explaining analyses, and producing organized, reproducible reports.
+:::
+::: {.portfolio-card}
+### Customer insights
+Qualtrics and survey research: constructs, questionnaire design, and connecting research questions to useful evidence.
+:::
+::::
+
+## Education & current focus
+
+**MS in Digital Marketing & Analytics — in progress**  
+California State Polytechnic University, Pomona
+
+As a Group 6 contributor on the PhD Orthodontics Culminating Experience Project, I work on Google Ads measurement and analysis planning. The project connects website experience, search visibility, content, paid media, and consumer insights.
+
+## Find the work relevant to you
+
+Browse the [project listing](listings.qmd) by topic, or visit the [CEP dashboard](cep-dashboard.qmd) for a compact view of the project’s scope and evidence boundaries. The [CSS / SCSS page](scss.qmd) explains the design choices that make this site readable and consistent.
+

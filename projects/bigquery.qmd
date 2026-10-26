@@ -1,0 +1,27 @@
+---
+title: "BigQuery Learning Notes"
+description: "Cloud-query coursework with attention to structure, interpretation, and communication."
+date: 2026-10-25
+categories: ["BigQuery","Data"]
+---
+
+[COURSEWORK / PROJECT SUMMARY]{.eyebrow}
+
+## The question
+
+How can cloud-query work be organized so another reader can follow it?
+
+## Approach
+
+BigQuery coursework extends SQL learning into a cloud analytics environment. Quarto reporting provides a place to explain the question, query approach, and interpretation.
+
+## What this work demonstrates
+
+A query result needs context: what was counted, which data were selected, and what the result can support. These are learning notes, not a claim of client performance or production engineering.
+
+## Explore
+
+[Browse the SQL and BigQuery coursework repository](https://github.com/hanamai111/ibm-6500-sql-learning-portfolio).
+
+[Back to selected work](../listings.qmd)
+

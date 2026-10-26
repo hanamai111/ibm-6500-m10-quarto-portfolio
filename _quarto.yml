@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - cep-dashboard.qmd
+    - scss.qmd
+    - listings.qmd
+    - projects/*.qmd
+website:
+  title: "Han Mai"
+  description: "Marketing analytics, customer insights, and clear data communication."
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cep-dashboard.qmd
+        text: CEP Dashboard
+      - href: scss.qmd
+        text: CSS / SCSS
+      - href: listings.qmd
+        text: Listings
+    right:
+      - icon: github
+        href: https://github.com/hanamai111
+        aria-label: Han Mai on GitHub
+  page-footer:
+    left: "Han Mai · Marketing Analytics & Customer Insights"
+    right: "Built with Quarto · IBM 6500 M10"
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    lang: en
+execute:
+  echo: false
+  warning: false
+  message: false
+editor: source
+

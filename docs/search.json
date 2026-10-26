@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "projects/survey.html",
+    "href": "projects/survey.html",
+    "title": "Survey & Customer Insights",
+    "section": "",
+    "text": "COURSEWORK / PROJECT SUMMARY"
+  },
+  {
+    "objectID": "projects/survey.html#the-question",
+    "href": "projects/survey.html#the-question",
+    "title": "Survey & Customer Insights",
+    "section": "The question",
+    "text": "The question\nHow can audience perceptions be translated into clear survey questions?"
+  },
+  {
+    "objectID": "projects/survey.html#approach",
+    "href": "projects/survey.html#approach",
+    "title": "Survey & Customer Insights",
+    "section": "Approach",
+    "text": "Approach\nCoursework and CEP preparation connect constructs, measurement choices, questionnaire wording, and survey logic. Qualtrics supports the draft questionnaire workflow."
+  },
+  {
+    "objectID": "projects/survey.html#what-this-work-demonstrates",
+    "href": "projects/survey.html#what-this-work-demonstrates",
+    "title": "Survey & Customer Insights",
+    "section": "What this work demonstrates",
+    "text": "What this work demonstrates\nThe CEP questionnaire is an unpublished draft pending review, privacy wording, stimulus decisions, and pretesting. No responses or research findings are presented. A planned study should not be described as completed evidence."
+  },
+  {
+    "objectID": "projects/survey.html#explore",
+    "href": "projects/survey.html#explore",
+    "title": "Survey & Customer Insights",
+    "section": "Explore",
+    "text": "Explore\nExplore the project’s evidence map.\nBack to selected work"
+  },
+  {
+    "objectID": "projects/cep.html",
+    "href": "projects/cep.html",
+    "title": "PhD Orthodontics CEP",
+    "section": "",
+    "text": "COURSEWORK / PROJECT SUMMARY"
+  },
+  {
+    "objectID": "projects/cep.html#the-question",
+    "href": "projects/cep.html#the-question",
+    "title": "PhD Orthodontics CEP",
+    "section": "The question",
+    "text": "The question\nWhat evidence can guide a more useful digital path toward consultation inquiries?"
+  },
+  {
+    "objectID": "projects/cep.html#approach",
+    "href": "projects/cep.html#approach",
+    "title": "PhD Orthodontics CEP",
+    "section": "Approach",
+    "text": "Approach\nGroup 6’s Culminating Experience Project covers website/UX, SEO, content, Google Ads, and consumer insights. Han’s contribution focuses on Google Ads measurement and analysis planning."
+  },
+  {
+    "objectID": "projects/cep.html#what-this-work-demonstrates",
+    "href": "projects/cep.html#what-this-work-demonstrates",
+    "title": "PhD Orthodontics CEP",
+    "section": "What this work demonstrates",
+    "text": "What this work demonstrates\nSan Gabriel is the primary market; Chino Hills is a future planning context. Platform actions require validation before interpretation as qualified inquiries, appointments, or patients. This summary contains no performance figures or private exports."
+  },
+  {
+    "objectID": "projects/cep.html#explore",
+    "href": "projects/cep.html#explore",
+    "title": "PhD Orthodontics CEP",
+    "section": "Explore",
+    "text": "Explore\nOpen the public-safe CEP dashboard.\nBack to selected work"
+  },
+  {
+    "objectID": "projects/bigquery.html",
+    "href": "projects/bigquery.html",
+    "title": "BigQuery Learning Notes",
+    "section": "",
+    "text": "COURSEWORK / PROJECT SUMMARY"
+  },
+  {
+    "objectID": "projects/bigquery.html#the-question",
+    "href": "projects/bigquery.html#the-question",
+    "title": "BigQuery Learning Notes",
+    "section": "The question",
+    "text": "The question\nHow can cloud-query work be organized so another reader can follow it?"
+  },
+  {
+    "objectID": "projects/bigquery.html#approach",
+    "href": "projects/bigquery.html#approach",
+    "title": "BigQuery Learning Notes",
+    "section": "Approach",
+    "text": "Approach\nBigQuery coursework extends SQL learning into a cloud analytics environment. Quarto reporting provides a place to explain the question, query approach, and interpretation."
+  },
+  {
+    "objectID": "projects/bigquery.html#what-this-work-demonstrates",
+    "href": "projects/bigquery.html#what-this-work-demonstrates",
+    "title": "BigQuery Learning Notes",
+    "section": "What this work demonstrates",
+    "text": "What this work demonstrates\nA query result needs context: what was counted, which data were selected, and what the result can support. These are learning notes, not a claim of client performance or production engineering."
+  },
+  {
+    "objectID": "projects/bigquery.html#explore",
+    "href": "projects/bigquery.html#explore",
+    "title": "BigQuery Learning Notes",
+    "section": "Explore",
+    "text": "Explore\nBrowse the SQL and BigQuery coursework repository.\nBack to selected work"
+  },
+  {
+    "objectID": "scss.html",
+    "href": "scss.html",
+    "title": "Design that helps readers",
+    "section": "",
+    "text": "Visitors should recognize the same site as they move between a biography, a dashboard, and project summaries. CSS controls the appearance of the HTML that Quarto generates. SCSS adds variables and nesting, making shared choices easier to maintain. Quarto compiles SCSS into the CSS a browser uses.\nHere, deep teal identifies links and primary actions, dark blue-gray supports readable text, and a light background keeps the focus on content. System fonts avoid an extra web-font download and remain readable when offline."
+  },
+  {
+    "objectID": "scss.html#a-consistent-visual-language",
+    "href": "scss.html#a-consistent-visual-language",
+    "title": "Design that helps readers",
+    "section": "",
+    "text": "Visitors should recognize the same site as they move between a biography, a dashboard, and project summaries. CSS controls the appearance of the HTML that Quarto generates. SCSS adds variables and nesting, making shared choices easier to maintain. Quarto compiles SCSS into the CSS a browser uses.\nHere, deep teal identifies links and primary actions, dark blue-gray supports readable text, and a light background keeps the focus on content. System fonts avoid an extra web-font download and remain readable when offline."
+  },
+  {
+    "objectID": "scss.html#connect-the-theme-once",
+    "href": "scss.html#connect-the-theme-once",
+    "title": "Design that helps readers",
+    "section": "Connect the theme once",
+    "text": "Connect the theme once\nThe website’s actual configuration loads a built-in theme followed by the custom SCSS file. Keeping the custom file second allows it to override theme defaults.\nformat:\n  html:\n    theme: [cosmo, styles.scss]\nThe same file defines site colors, fonts, component spacing, and responsive rules.\nThe dashboard explicitly uses the same theme pair under its own dashboard format. Its rows and cards keep Quarto’s native layout behavior; the regular website pages use the shared HTML format."
+  },
+  {
+    "objectID": "scss.html#variables-before-rules",
+    "href": "scss.html#variables-before-rules",
+    "title": "Design that helps readers",
+    "section": "Variables before rules",
+    "text": "Variables before rules\nThese are actual choices from this project’s stylesheet:\n/*-- scss:defaults --*/\n$primary: #176b68;\n$body-color: #243448;\n$font-family-sans-serif: \"Aptos\", \"Segoe UI\", Arial, sans-serif;\n$font-size-root: 18px;\nThe defaults section sets Bootstrap/Quarto theme variables before theme rules are compiled. Changing the primary color in one place updates the site’s visual identity without editing every page."
+  },
+  {
+    "objectID": "scss.html#reusable-components",
+    "href": "scss.html#reusable-components",
+    "title": "Design that helps readers",
+    "section": "Reusable components",
+    "text": "Reusable components\n\nOne class, a repeatable pattern\nThis is a live .portfolio-card component. Its border, spacing, heading color, and rounded corners come from the same rule used by the Home page’s skill cards.\n\n/*-- scss:rules --*/\n.portfolio-card {\n  background: white;\n  border: 1px solid $card-border;\n  border-radius: .6rem;\n  padding: 1.5rem;\n}\nThe scss:rules section contains normal selectors and custom rules. A class is more maintainable than repeating inline styles on each card. Nested selectors keep component-specific rules together."
+  },
+  {
+    "objectID": "scss.html#small-details-improve-navigation",
+    "href": "scss.html#small-details-improve-navigation",
+    "title": "Design that helps readers",
+    "section": "Small details improve navigation",
+    "text": "Small details improve navigation\nThe navbar has a fine bottom border, clear link weight, and a soft hover background. Links keep an underline offset, and keyboard focus receives a visible outline. Code blocks wrap and have a quiet background so examples remain easy to read.\nWhitespace is part of the hierarchy: consistent card padding groups related content, while larger gaps separate ideas. A restrained maximum content width prevents overly long lines on wide screens."
+  },
+  {
+    "objectID": "scss.html#adapt-to-the-readers-screen",
+    "href": "scss.html#adapt-to-the-readers-screen",
+    "title": "Design that helps readers",
+    "section": "Adapt to the reader’s screen",
+    "text": "Adapt to the reader’s screen\nThe Home page uses a two-column introduction and three skill cards on wider screens. A media query stacks them into one column below 760 pixels. The heading size uses clamp(), allowing it to scale within readable limits.\n@media (max-width: 760px) {\n  .hero-grid, .feature-grid {\n    grid-template-columns: 1fr;\n    gap: 1.3rem;\n  }\n}\nResponsive styling needs verification: a layout can look balanced on a laptop and still produce narrow columns or overflow on a phone. The dashboard separately uses its native responsive layout and scrolling content."
+  },
+  {
+    "objectID": "scss.html#choose-the-simplest-tool-that-works",
+    "href": "scss.html#choose-the-simplest-tool-that-works",
+    "title": "Design that helps readers",
+    "section": "Choose the simplest tool that works",
+    "text": "Choose the simplest tool that works\nUse YAML for supported theme and layout options, SCSS variables for shared theme values, and classes for recurring components. Use a focused CSS selector only when the generated HTML needs a specific adjustment. This keeps content readable and future changes manageable.\nLearn more: Quarto HTML themes · Posit website customization tutorial"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Han Mai",
+    "section": "",
+    "text": "CAL POLY POMONA · GRADUATE STUDENT\n\n\nI am pursuing an MS in Digital Marketing & Analytics at Cal Poly Pomona. My coursework connects marketing measurement, customer research, and reproducible reporting so audiences can understand what the evidence supports and what still needs to be tested.\nI am interested in marketing analytics and customer insights roles, helping teams ask better questions, evaluate digital activity, and communicate practical next steps.\nExplore selected work View the CEP dashboard\n\n\n\n\n\n\nHan Mai"
+  },
+  {
+    "objectID": "index.html#turning-marketing-questions-into-clear-useful-evidence",
+    "href": "index.html#turning-marketing-questions-into-clear-useful-evidence",
+    "title": "Han Mai",
+    "section": "",
+    "text": "I am pursuing an MS in Digital Marketing & Analytics at Cal Poly Pomona. My coursework connects marketing measurement, customer research, and reproducible reporting so audiences can understand what the evidence supports and what still needs to be tested.\nI am interested in marketing analytics and customer insights roles, helping teams ask better questions, evaluate digital activity, and communicate practical next steps.\nExplore selected work View the CEP dashboard"
+  },
+  {
+    "objectID": "index.html#skills-in-practice",
+    "href": "index.html#skills-in-practice",
+    "title": "Han Mai",
+    "section": "Skills in practice",
+    "text": "Skills in practice\n\n\nMarketing measurement\nGA4 and Google Ads coursework: measurement planning, platform interpretation, and separating reported actions from verified outcomes.\n\n\nData & reporting\nSQL, BigQuery, R, and Quarto: querying data, explaining analyses, and producing organized, reproducible reports.\n\n\nCustomer insights\nQualtrics and survey research: constructs, questionnaire design, and connecting research questions to useful evidence."
+  },
+  {
+    "objectID": "index.html#education-current-focus",
+    "href": "index.html#education-current-focus",
+    "title": "Han Mai",
+    "section": "Education & current focus",
+    "text": "Education & current focus\nMS in Digital Marketing & Analytics — in progress\nCalifornia State Polytechnic University, Pomona\nAs a Group 6 contributor on the PhD Orthodontics Culminating Experience Project, I work on Google Ads measurement and analysis planning. The project connects website experience, search visibility, content, paid media, and consumer insights."
+  },
+  {
+    "objectID": "index.html#find-the-work-relevant-to-you",
+    "href": "index.html#find-the-work-relevant-to-you",
+    "title": "Han Mai",
+    "section": "Find the work relevant to you",
+    "text": "Find the work relevant to you\nBrowse the project listing by topic, or visit the CEP dashboard for a compact view of the project’s scope and evidence boundaries. The CSS / SCSS page explains the design choices that make this site readable and consistent."
+  },
+  {
+    "objectID": "listings.html",
+    "href": "listings.html",
+    "title": "Selected work",
+    "section": "",
+    "text": "A listing gives visitors a quick way to browse projects by topic and identify relevant work. Use the categories or text filter to narrow this collection. Each card opens a short project summary explaining the question, methods, and limits of the evidence.\nThese entries describe coursework and an ongoing team project. Dates below refer to preparation of these portfolio summaries, not completion of the underlying projects."
+  },
+  {
+    "objectID": "listings.html#how-this-collection-stays-consistent",
+    "href": "listings.html#how-this-collection-stays-consistent",
+    "title": "Selected work",
+    "section": "How this collection stays consistent",
+    "text": "How this collection stays consistent\nQuarto builds the cards from front matter in projects/*.qmd. A title identifies the work, the description explains its relevance, categories support filtering, and the date supplies consistent display metadata. Adding another matching document updates the listing when the website is rendered.\nlisting:\n  contents: projects/*.qmd\n  type: grid\n  categories: true\n  filter-ui: true\n  sort: \"title asc\"\nA grid helps visitors scan a small portfolio. A default list works well for longer editorial summaries; a table is useful when comparing many entries by structured fields. This collection uses native document metadata, so the title on a card and the title on its destination stay aligned.\n---\ntitle: \"SQL Learning Portfolio\"\ndescription: \"Querying structured data and explaining the logic behind an answer.\"\ndate: 2026-10-25\ncategories: [SQL, Data]\n---\nLearn more: Quarto document listings · Posit listings tutorial"
+  },
+  {
+    "objectID": "projects/blueprint.html",
+    "href": "projects/blueprint.html",
+    "title": "GA4 Analytics Blueprint",
+    "section": "",
+    "text": "COURSEWORK / PROJECT SUMMARY"
+  },
+  {
+    "objectID": "projects/blueprint.html#the-question",
+    "href": "projects/blueprint.html#the-question",
+    "title": "GA4 Analytics Blueprint",
+    "section": "The question",
+    "text": "The question\nWhat should a measurement plan establish before a team interprets outcomes?"
+  },
+  {
+    "objectID": "projects/blueprint.html#approach",
+    "href": "projects/blueprint.html#approach",
+    "title": "GA4 Analytics Blueprint",
+    "section": "Approach",
+    "text": "Approach\nThe analytics blueprint organizes measurement questions, evidence needs, and interpretation boundaries for the PhD Orthodontics project. It is a planning contribution within coursework."
+  },
+  {
+    "objectID": "projects/blueprint.html#what-this-work-demonstrates",
+    "href": "projects/blueprint.html#what-this-work-demonstrates",
+    "title": "GA4 Analytics Blueprint",
+    "section": "What this work demonstrates",
+    "text": "What this work demonstrates\nA blueprint proposes how to measure; it does not prove that events fire correctly or that qualified leads have been recorded. The client GA4 property/tag mismatch requires correction and validation before trustworthy prospective measurement."
+  },
+  {
+    "objectID": "projects/blueprint.html#explore",
+    "href": "projects/blueprint.html#explore",
+    "title": "GA4 Analytics Blueprint",
+    "section": "Explore",
+    "text": "Explore\nView the blueprint source repository.\nBack to selected work"
+  },
+  {
+    "objectID": "projects/sql.html",
+    "href": "projects/sql.html",
+    "title": "SQL Learning Portfolio",
+    "section": "",
+    "text": "COURSEWORK / PROJECT SUMMARY"
+  },
+  {
+    "objectID": "projects/sql.html#the-question",
+    "href": "projects/sql.html#the-question",
+    "title": "SQL Learning Portfolio",
+    "section": "The question",
+    "text": "The question\nHow can a structured query turn a business question into a reproducible answer?"
+  },
+  {
+    "objectID": "projects/sql.html#approach",
+    "href": "projects/sql.html#approach",
+    "title": "SQL Learning Portfolio",
+    "section": "Approach",
+    "text": "Approach\nCoursework practice with selecting, filtering, grouping, and summarizing relational data. The portfolio communicates query logic alongside outputs so a reader can follow the reasoning."
+  },
+  {
+    "objectID": "projects/sql.html#what-this-work-demonstrates",
+    "href": "projects/sql.html#what-this-work-demonstrates",
+    "title": "SQL Learning Portfolio",
+    "section": "What this work demonstrates",
+    "text": "What this work demonstrates\nSQL helps define the unit of analysis and the conditions behind a result. An aggregate answers a specific question only when its filters and grouping match that question."
+  },
+  {
+    "objectID": "projects/sql.html#explore",
+    "href": "projects/sql.html#explore",
+    "title": "SQL Learning Portfolio",
+    "section": "Explore",
+    "text": "Explore\nView the source portfolio.\nBack to selected work"
+  }
+]
